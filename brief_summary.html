@@ -340,18 +340,24 @@
                 <span class="stat-value">119</span>
                 <span class="stat-label">Must Read Papers</span>
             </div>
+            <div class="stat">
+                <span class="stat-value" style="color: #10b981;">3</span>
+                <span class="stat-label">With Open Source</span>
+            </div>
         </div>
     </header>
 
     <div class="container">
         <div class="filters">
             <input type="text" class="search-box" id="searchBox" placeholder="Search papers by title, keywords, or methods..." oninput="filterPapers()">
+            <button class="filter-btn" id="allBtn" onclick="filterByCode('all')" style="margin-left: 15px; padding: 8px 16px; border-radius: 20px; border: 1px solid #2a2a4a; background: #00d4ff; color: #0a0a1a; cursor: pointer; font-size: 0.85rem;">All Papers</button>
+            <button class="filter-btn" id="codeBtn" onclick="filterByCode('code')" style="padding: 8px 16px; border-radius: 20px; border: 1px solid #2a2a4a; background: transparent; color: #10b981; cursor: pointer; font-size: 0.85rem;">✅ With Code Only</button>
             <span class="filter-label" id="resultCount">Showing 119 papers</span>
         </div>
 
         <div class="papers-list" id="papersList">
 
-            <div class="paper-card" data-search="locomotion beyond feet ppo 地形适应 楼梯行走 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="locomotion beyond feet ppo 地形适应 楼梯行走 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#1</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2601.03607v1" target="_blank">Locomotion Beyond Feet</a></h3>
@@ -414,12 +420,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="walk the planc: physics-guided rl for agile humanoid locomotion on constrained footholds rl强化学习 平衡控制 地形适应 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="walk the planc: physics-guided rl for agile humanoid locomotion on constrained footholds rl强化学习 平衡控制 地形适应 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#2</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2601.06286v1" target="_blank">Walk the PLANC: Physics-Guided RL for Agile Humanoid Locomotion on Constrained Footholds</a></h3>
@@ -482,12 +495,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="sim-to-real transfer in deep reinforcement learning for bipedal locomotion rl强化学习 sim2real 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="sim-to-real transfer in deep reinforcement learning for bipedal locomotion rl强化学习 sim2real 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#3</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2511.06465v1" target="_blank">Sim-to-Real Transfer in Deep Reinforcement Learning for Bipedal Locomotion</a></h3>
@@ -550,12 +570,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning bipedal locomotion on gear-driven humanoid robot using foot-mounted imus rl强化学习 sim2real 地形适应 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="learning bipedal locomotion on gear-driven humanoid robot using foot-mounted imus rl强化学习 sim2real 地形适应 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#4</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2504.00614v2" target="_blank">Learning Bipedal Locomotion on Gear-Driven Humanoid Robot Using Foot-Mounted IMUs</a></h3>
@@ -618,12 +645,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning sim-to-real humanoid locomotion in 15 minutes rl强化学习 sac sim2real 域随机化 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="learning sim-to-real humanoid locomotion in 15 minutes rl强化学习 sac sim2real 域随机化 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#5</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2512.01996v1" target="_blank">Learning Sim-to-Real Humanoid Locomotion in 15 Minutes</a></h3>
@@ -686,12 +720,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="romoco: robotic motion control toolbox for reduced-order model-based locomotion on bipedal and humanoid robots wbc全身控制 unitree机器人 cassie 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="romoco: robotic motion control toolbox for reduced-order model-based locomotion on bipedal and humanoid robots wbc全身控制 unitree机器人 cassie 人形机器人运动控制方法研究" data-has-code="yes">
                 <div class="card-header">
                     <span class="card-number">#6</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2509.19545v1" target="_blank">RoMoCo: Robotic Motion Control Toolbox for Reduced-Order Model-Based Locomotion on Bipedal and Humanoid Robots</a></h3>
@@ -754,12 +795,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #10b981;">✅ 有代码 - Open Source</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning getting-up policies for real-world humanoid robots 地形适应 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="learning getting-up policies for real-world humanoid robots 地形适应 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#7</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2502.12152v2" target="_blank">Learning Getting-Up Policies for Real-World Humanoid Robots</a></h3>
@@ -822,12 +870,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="robot trains robot: automatic real-world policy adaptation and learning for humanoids rl强化学习 ppo sim2real 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="robot trains robot: automatic real-world policy adaptation and learning for humanoids rl强化学习 ppo sim2real 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#8</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2508.12252v2" target="_blank">Robot Trains Robot: Automatic Real-World Policy Adaptation and Learning for Humanoids</a></h3>
@@ -890,12 +945,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="robust humanoid walking on compliant and uneven terrain with deep reinforcement learning rl强化学习 sim2real 地形适应 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="robust humanoid walking on compliant and uneven terrain with deep reinforcement learning rl强化学习 sim2real 地形适应 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#9</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2504.13619v1" target="_blank">Robust Humanoid Walking on Compliant and Uneven Terrain with Deep Reinforcement Learning</a></h3>
@@ -958,12 +1020,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="mash: cooperative-heterogeneous multi-agent reinforcement learning for single humanoid robot locomotion rl强化学习 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="mash: cooperative-heterogeneous multi-agent reinforcement learning for single humanoid robot locomotion rl强化学习 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#10</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2508.10423v1" target="_blank">MASH: Cooperative-Heterogeneous Multi-Agent Reinforcement Learning for Single Humanoid Robot Locomotion</a></h3>
@@ -1026,12 +1095,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="periodic bipedal gait learning using reward composition based on a novel gait planner for humanoid robots 运动控制 机器人学 机器人控制方法研究">
+            <div class="paper-card" data-search="periodic bipedal gait learning using reward composition based on a novel gait planner for humanoid robots 运动控制 机器人学 机器人控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#11</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2506.08416v1" target="_blank">Periodic Bipedal Gait Learning Using Reward Composition Based on a Novel Gait Planner for Humanoid Robots</a></h3>
@@ -1094,12 +1170,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="constrained reinforcement learning for unstable point-feet bipedal locomotion applied to the bolt robot rl强化学习 sim2real 域随机化 平衡控制 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="constrained reinforcement learning for unstable point-feet bipedal locomotion applied to the bolt robot rl强化学习 sim2real 域随机化 平衡控制 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#12</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2508.02194v1" target="_blank">Constrained Reinforcement Learning for Unstable Point-Feet Bipedal Locomotion Applied to the Bolt Robot</a></h3>
@@ -1162,12 +1245,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="lipm-guided reinforcement learning for stable and perceptive locomotion in bipedal robots rl强化学习 平衡控制 地形适应 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="lipm-guided reinforcement learning for stable and perceptive locomotion in bipedal robots rl强化学习 平衡控制 地形适应 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#13</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2509.09106v2" target="_blank">LIPM-Guided Reinforcement Learning for Stable and Perceptive Locomotion in Bipedal Robots</a></h3>
@@ -1230,12 +1320,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="natural humanoid robot locomotion with generative motion prior 动作重定向 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="natural humanoid robot locomotion with generative motion prior 动作重定向 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#14</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2503.09015v1" target="_blank">Natural Humanoid Robot Locomotion with Generative Motion Prior</a></h3>
@@ -1298,12 +1395,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="humanoid agent via embodied chain-of-action reasoning with multimodal foundation models for zero-shot loco-manipulation 平衡控制 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="humanoid agent via embodied chain-of-action reasoning with multimodal foundation models for zero-shot loco-manipulation 平衡控制 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#15</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2504.09532v3" target="_blank">Humanoid Agent via Embodied Chain-of-Action Reasoning with Multimodal Foundation Models for Zero-Shot Loco-Manipulation</a></h3>
@@ -1366,12 +1470,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="styleloco: generative adversarial distillation for natural humanoid robot locomotion rl强化学习 模仿学习 地形适应 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="styleloco: generative adversarial distillation for natural humanoid robot locomotion rl强化学习 模仿学习 地形适应 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#16</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2503.15082v1" target="_blank">StyleLoco: Generative Adversarial Distillation for Natural Humanoid Robot Locomotion</a></h3>
@@ -1434,12 +1545,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="end-to-end humanoid robot safe and comfortable locomotion policy rl强化学习 lidar 点云 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="end-to-end humanoid robot safe and comfortable locomotion policy rl强化学习 lidar 点云 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#17</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2508.07611v1" target="_blank">End-to-End Humanoid Robot Safe and Comfortable Locomotion Policy</a></h3>
@@ -1502,12 +1620,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="rl-augmented adaptive model predictive control for bipedal locomotion over challenging terrain rl强化学习 mpc 地形适应 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="rl-augmented adaptive model predictive control for bipedal locomotion over challenging terrain rl强化学习 mpc 地形适应 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#18</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2509.18466v1" target="_blank">RL-augmented Adaptive Model Predictive Control for Bipedal Locomotion over Challenging Terrain</a></h3>
@@ -1570,12 +1695,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="vmts: vision-assisted teacher-student reinforcement learning for multi-terrain locomotion in bipedal robots rl强化学习 地形适应 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="vmts: vision-assisted teacher-student reinforcement learning for multi-terrain locomotion in bipedal robots rl强化学习 地形适应 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#19</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2503.07049v2" target="_blank">VMTS: Vision-Assisted Teacher-Student Reinforcement Learning for Multi-Terrain Locomotion in Bipedal Robots</a></h3>
@@ -1638,12 +1770,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning humanoid standing-up control across diverse postures rl强化学习 sim2real 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="learning humanoid standing-up control across diverse postures rl强化学习 sim2real 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#20</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2502.08378v2" target="_blank">Learning Humanoid Standing-up Control across Diverse Postures</a></h3>
@@ -1706,12 +1845,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="a unified and general humanoid whole-body controller for versatile locomotion wbc全身控制 跳跃 奔跑 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="a unified and general humanoid whole-body controller for versatile locomotion wbc全身控制 跳跃 奔跑 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#21</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2502.03206v3" target="_blank">A Unified and General Humanoid Whole-Body Controller for Versatile Locomotion</a></h3>
@@ -1774,12 +1920,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning humanoid locomotion with world model reconstruction 世界模型 地形适应 基于世界模型学习的人形机器人运动控制">
+            <div class="paper-card" data-search="learning humanoid locomotion with world model reconstruction 世界模型 地形适应 基于世界模型学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#22</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2502.16230v1" target="_blank">Learning Humanoid Locomotion with World Model Reconstruction</a></h3>
@@ -1842,12 +1995,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="a hierarchical framework for humanoid locomotion with supernumerary limbs 模仿学习 课程学习 unitree机器人 h1 基于模仿学习的人形机器人运动控制">
+            <div class="paper-card" data-search="a hierarchical framework for humanoid locomotion with supernumerary limbs 模仿学习 课程学习 unitree机器人 h1 基于模仿学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#23</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2512.00077v1" target="_blank">A Hierarchical Framework for Humanoid Locomotion with Supernumerary Limbs</a></h3>
@@ -1910,12 +2070,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="descriptive model-based learning and control for bipedal locomotion 平衡控制 双足机器人行走方法研究">
+            <div class="paper-card" data-search="descriptive model-based learning and control for bipedal locomotion 平衡控制 双足机器人行走方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#24</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2511.00512v1" target="_blank">Descriptive Model-based Learning and Control for Bipedal Locomotion</a></h3>
@@ -1978,12 +2145,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="preference-conditioned multi-objective rl for integrated command tracking and force compliance in humanoid locomotion 平衡控制 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="preference-conditioned multi-objective rl for integrated command tracking and force compliance in humanoid locomotion 平衡控制 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#25</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2510.10851v1" target="_blank">Preference-Conditioned Multi-Objective RL for Integrated Command Tracking and Force Compliance in Humanoid Locomotion</a></h3>
@@ -2046,12 +2220,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="inekformer: a hybrid state estimator for humanoid robots 运动控制 机器人学 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="inekformer: a hybrid state estimator for humanoid robots 运动控制 机器人学 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#26</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2511.16306v1" target="_blank">InEKFormer: A Hybrid State Estimator for Humanoid Robots</a></h3>
@@ -2114,12 +2295,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="h-zero: cross-humanoid locomotion pretraining enables few-shot novel embodiment transfer 运动控制 机器人学 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="h-zero: cross-humanoid locomotion pretraining enables few-shot novel embodiment transfer 运动控制 机器人学 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#27</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2512.00971v1" target="_blank">H-Zero: Cross-Humanoid Locomotion Pretraining Enables Few-shot Novel Embodiment Transfer</a></h3>
@@ -2182,12 +2370,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="beamdojo: learning agile humanoid locomotion on sparse footholds rl强化学习 地形适应 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="beamdojo: learning agile humanoid locomotion on sparse footholds rl强化学习 地形适应 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#28</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2502.10363v3" target="_blank">BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds</a></h3>
@@ -2250,12 +2445,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="humanoid whole-body badminton via multi-stage reinforcement learning rl强化学习 wbc全身控制 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="humanoid whole-body badminton via multi-stage reinforcement learning rl强化学习 wbc全身控制 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#29</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2511.11218v2" target="_blank">Humanoid Whole-Body Badminton via Multi-Stage Reinforcement Learning</a></h3>
@@ -2318,12 +2520,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="bracing for impact: robust humanoid push recovery and locomotion with reduced order models mpc 推力恢复 基于mpc的人形机器人运动控制">
+            <div class="paper-card" data-search="bracing for impact: robust humanoid push recovery and locomotion with reduced order models mpc 推力恢复 基于mpc的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#30</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2505.11495v1" target="_blank">Bracing for Impact: Robust Humanoid Push Recovery and Locomotion with Reduced Order Models</a></h3>
@@ -2386,12 +2595,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="extended hybrid zero dynamics for bipedal walking of the knee-less robot slider 零动力学hzd 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="extended hybrid zero dynamics for bipedal walking of the knee-less robot slider 零动力学hzd 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#31</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2504.01165v2" target="_blank">Extended Hybrid Zero Dynamics for Bipedal Walking of the Knee-less Robot SLIDER</a></h3>
@@ -2454,12 +2670,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="flam: foundation model-based body stabilization for humanoid locomotion and manipulation rl强化学习 wbc全身控制 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="flam: foundation model-based body stabilization for humanoid locomotion and manipulation rl强化学习 wbc全身控制 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#32</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2503.22249v1" target="_blank">FLAM: Foundation Model-Based Body Stabilization for Humanoid Locomotion and Manipulation</a></h3>
@@ -2522,12 +2745,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="no more blind spots: learning vision-based omnidirectional bipedal locomotion for challenging terrain rl强化学习 sim2real 地形适应 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="no more blind spots: learning vision-based omnidirectional bipedal locomotion for challenging terrain rl强化学习 sim2real 地形适应 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#33</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2508.11929v1" target="_blank">No More Blind Spots: Learning Vision-Based Omnidirectional Bipedal Locomotion for Challenging Terrain</a></h3>
@@ -2590,12 +2820,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="robust rl control for bipedal locomotion with closed kinematic chains rl强化学习 sim2real 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="robust rl control for bipedal locomotion with closed kinematic chains rl强化学习 sim2real 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#34</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2507.10164v1" target="_blank">Robust RL Control for Bipedal Locomotion with Closed Kinematic Chains</a></h3>
@@ -2658,12 +2895,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="humanoid everyday: a comprehensive robotic dataset for open-world humanoid manipulation 运动控制 机器人学 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="humanoid everyday: a comprehensive robotic dataset for open-world humanoid manipulation 运动控制 机器人学 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#35</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2510.08807v1" target="_blank">Humanoid Everyday: A Comprehensive Robotic Dataset for Open-World Humanoid Manipulation</a></h3>
@@ -2726,12 +2970,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="reinforcement learning with data bootstrapping for dynamic subgoal pursuit in humanoid robot navigation rl强化学习 mpc 平衡控制 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="reinforcement learning with data bootstrapping for dynamic subgoal pursuit in humanoid robot navigation rl强化学习 mpc 平衡控制 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#36</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2506.02206v1" target="_blank">Reinforcement Learning with Data Bootstrapping for Dynamic Subgoal Pursuit in Humanoid Robot Navigation</a></h3>
@@ -2794,12 +3045,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="hwc-loco: a hierarchical whole-body control approach to robust humanoid locomotion wbc全身控制 基于优化方法的人形机器人运动控制">
+            <div class="paper-card" data-search="hwc-loco: a hierarchical whole-body control approach to robust humanoid locomotion wbc全身控制 基于优化方法的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#37</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2503.00923v3" target="_blank">HWC-Loco: A Hierarchical Whole-Body Control Approach to Robust Humanoid Locomotion</a></h3>
@@ -2862,12 +3120,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="doublyaware: dual planning and policy awareness for temporal difference learning in humanoid locomotion rl强化学习 td-mpc 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="doublyaware: dual planning and policy awareness for temporal difference learning in humanoid locomotion rl强化学习 td-mpc 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#38</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2506.12095v1" target="_blank">DoublyAware: Dual Planning and Policy Awareness for Temporal Difference Learning in Humanoid Locomotion</a></h3>
@@ -2930,12 +3195,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="anticipatory and adaptive footstep streaming for teleoperated bipedal robots 遥操作 平衡控制 双足机器人行走方法研究">
+            <div class="paper-card" data-search="anticipatory and adaptive footstep streaming for teleoperated bipedal robots 遥操作 平衡控制 双足机器人行走方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#39</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2508.11802v1" target="_blank">Anticipatory and Adaptive Footstep Streaming for Teleoperated Bipedal Robots</a></h3>
@@ -2998,12 +3270,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="humanoid locomotion and manipulation: current progress and challenges in control, planning, and learning 运动控制 机器人学 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="humanoid locomotion and manipulation: current progress and challenges in control, planning, and learning 运动控制 机器人学 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#40</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2501.02116v2" target="_blank">Humanoid Locomotion and Manipulation: Current Progress and Challenges in Control, Planning, and Learning</a></h3>
@@ -3066,12 +3345,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="distillation-ppo: a novel two-stage reinforcement learning framework for humanoid robot perceptive locomotion rl强化学习 ppo 地形适应 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="distillation-ppo: a novel two-stage reinforcement learning framework for humanoid robot perceptive locomotion rl强化学习 ppo 地形适应 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#41</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2503.08299v1" target="_blank">Distillation-PPO: A Novel Two-Stage Reinforcement Learning Framework for Humanoid Robot Perceptive Locomotion</a></h3>
@@ -3134,12 +3420,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="ppf: pre-training and preservative fine-tuning of humanoid locomotion via model-assumption-based regularization 地形适应 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="ppf: pre-training and preservative fine-tuning of humanoid locomotion via model-assumption-based regularization 地形适应 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#42</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2504.09833v2" target="_blank">PPF: Pre-training and Preservative Fine-tuning of Humanoid Locomotion via Model-Assumption-based Regularization</a></h3>
@@ -3202,12 +3495,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="dribble master: learning agile humanoid dribbling through legged locomotion 课程学习 平衡控制 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="dribble master: learning agile humanoid dribbling through legged locomotion 课程学习 平衡控制 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#43</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2505.12679v2" target="_blank">Dribble Master: Learning Agile Humanoid Dribbling Through Legged Locomotion</a></h3>
@@ -3270,12 +3570,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="ctbc: contact-triggered blind climbing for wheeled bipedal robots with instruction learning and reinforcement learning rl强化学习 地形适应 楼梯行走 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="ctbc: contact-triggered blind climbing for wheeled bipedal robots with instruction learning and reinforcement learning rl强化学习 地形适应 楼梯行走 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#44</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2509.02986v2" target="_blank">CTBC: Contact-Triggered Blind Climbing for Wheeled Bipedal Robots with Instruction Learning and Reinforcement Learning</a></h3>
@@ -3338,12 +3645,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning-based legged locomotion: state of the art and future perspectives 运动控制 机器人学 腿足机器人运动方法研究">
+            <div class="paper-card" data-search="learning-based legged locomotion: state of the art and future perspectives 运动控制 机器人学 腿足机器人运动方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#45</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85216854259&amp;origin=resultslist" target="_blank">Learning-based legged locomotion: State of the art and future perspectives</a></h3>
@@ -3406,12 +3720,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="a novel adaptive dynamic optimal balance control method for wheel-legged robot 平衡控制 平衡控制方法研究">
+            <div class="paper-card" data-search="a novel adaptive dynamic optimal balance control method for wheel-legged robot 平衡控制 平衡控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#46</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85205929380&amp;origin=resultslist" target="_blank">A novel adaptive dynamic optimal balance control method for wheel-legged robot</a></h3>
@@ -3474,12 +3795,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="design and control of skater: a wheeled- bipedal robot with high-speed turning robustness and terrain adaptability 地形适应 机器人控制方法研究">
+            <div class="paper-card" data-search="design and control of skater: a wheeled- bipedal robot with high-speed turning robustness and terrain adaptability 地形适应 机器人控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#47</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-105003137460&amp;origin=resultslist" target="_blank">Design and Control of SKATER: A Wheeled- Bipedal Robot With High-Speed Turning Robustness and Terrain Adaptability</a></h3>
@@ -3542,12 +3870,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="a mini-review on mobile manipulators with variable autonomy 运动控制 机器人学 机器人控制方法研究">
+            <div class="paper-card" data-search="a mini-review on mobile manipulators with variable autonomy 运动控制 机器人学 机器人控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#48</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2408.10887v1" target="_blank">A Mini-Review on Mobile Manipulators with Variable Autonomy</a></h3>
@@ -3610,12 +3945,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning humanoid locomotion over challenging terrain transformer 地形适应 基于transformer的人形机器人运动控制">
+            <div class="paper-card" data-search="learning humanoid locomotion over challenging terrain transformer 地形适应 基于transformer的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#49</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2410.03654v1" target="_blank">Learning Humanoid Locomotion over Challenging Terrain</a></h3>
@@ -3678,12 +4020,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning bipedal walking for humanoid robots in challenging environments with obstacle avoidance rl强化学习 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="learning bipedal walking for humanoid robots in challenging environments with obstacle avoidance rl强化学习 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#50</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2410.08212v1" target="_blank">Learning Bipedal Walking for Humanoid Robots in Challenging Environments with Obstacle Avoidance</a></h3>
@@ -3746,12 +4095,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="birodiff: diffusion policies for bipedal robot locomotion on unseen terrains 扩散模型diffusion 地形适应 基于扩散模型的双足机器人行走">
+            <div class="paper-card" data-search="birodiff: diffusion policies for bipedal robot locomotion on unseen terrains 扩散模型diffusion 地形适应 基于扩散模型的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#51</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2407.05424v1" target="_blank">BiRoDiff: Diffusion policies for bipedal robot locomotion on unseen terrains</a></h3>
@@ -3814,12 +4170,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="generalizable humanoid manipulation with 3d diffusion policies 扩散模型diffusion 遥操作 基于扩散模型的机器人操作">
+            <div class="paper-card" data-search="generalizable humanoid manipulation with 3d diffusion policies 扩散模型diffusion 遥操作 基于扩散模型的机器人操作" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#52</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2410.10803v3" target="_blank">Generalizable Humanoid Manipulation with 3D Diffusion Policies</a></h3>
@@ -3882,12 +4245,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="deep reinforcement learning for bipedal locomotion: a brief survey rl强化学习 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="deep reinforcement learning for bipedal locomotion: a brief survey rl强化学习 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#53</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2404.17070v7" target="_blank">Deep Reinforcement Learning for Bipedal Locomotion: A Brief Survey</a></h3>
@@ -3950,12 +4320,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="capture point control in thruster-assisted bipedal locomotion 捕获点 地形适应 双足机器人行走方法研究">
+            <div class="paper-card" data-search="capture point control in thruster-assisted bipedal locomotion 捕获点 地形适应 双足机器人行走方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#54</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2406.14799v1" target="_blank">Capture Point Control in Thruster-Assisted Bipedal Locomotion</a></h3>
@@ -4018,12 +4395,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="reinforcement learning for versatile, dynamic, and robust bipedal locomotion control rl强化学习 跳跃 奔跑 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="reinforcement learning for versatile, dynamic, and robust bipedal locomotion control rl强化学习 跳跃 奔跑 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#55</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2401.16889v2" target="_blank">Reinforcement Learning for Versatile, Dynamic, and Robust Bipedal Locomotion Control</a></h3>
@@ -4086,12 +4470,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="autotuning bipedal locomotion mpc with grfm-net for efficient sim-to-real transfer mpc sim2real 基于mpc的人形机器人运动控制">
+            <div class="paper-card" data-search="autotuning bipedal locomotion mpc with grfm-net for efficient sim-to-real transfer mpc sim2real 基于mpc的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#56</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2409.15710v1" target="_blank">Autotuning Bipedal Locomotion MPC with GRFM-Net for Efficient Sim-to-Real Transfer</a></h3>
@@ -4154,12 +4545,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="rl-augmented mpc framework for agile and robust bipedal footstep locomotion planning and control rl强化学习 mpc 足步规划 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="rl-augmented mpc framework for agile and robust bipedal footstep locomotion planning and control rl强化学习 mpc 足步规划 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#57</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2407.17683v1" target="_blank">RL-augmented MPC Framework for Agile and Robust Bipedal Footstep Locomotion Planning and Control</a></h3>
@@ -4222,12 +4620,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="the duke humanoid: design and control for energy efficient bipedal locomotion using passive dynamics rl强化学习 平衡控制 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="the duke humanoid: design and control for energy efficient bipedal locomotion using passive dynamics rl强化学习 平衡控制 基于强化学习的人形机器人运动控制" data-has-code="yes">
                 <div class="card-header">
                     <span class="card-number">#58</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2409.19795v2" target="_blank">The Duke Humanoid: Design and Control For Energy Efficient Bipedal Locomotion Using Passive Dynamics</a></h3>
@@ -4290,12 +4695,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #10b981;">✅ 有代码 - Open Source</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="robust-locomotion-by-logic: perturbation-resilient bipedal locomotion via signal temporal logic guided model predictive control mpc 基于mpc的双足机器人行走">
+            <div class="paper-card" data-search="robust-locomotion-by-logic: perturbation-resilient bipedal locomotion via signal temporal logic guided model predictive control mpc 基于mpc的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#59</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2403.15993v2" target="_blank">Robust-Locomotion-by-Logic: Perturbation-Resilient Bipedal Locomotion via Signal Temporal Logic Guided Model Predictive Control</a></h3>
@@ -4358,12 +4770,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="humanoidbench: simulated humanoid benchmark for whole-body locomotion and manipulation 运动控制 机器人学 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="humanoidbench: simulated humanoid benchmark for whole-body locomotion and manipulation 运动控制 机器人学 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#60</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2403.10506v2" target="_blank">HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation</a></h3>
@@ -4426,12 +4845,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="quadratic programming optimization for bio-inspired thruster-assisted bipedal locomotion on inclined slopes 运动控制 机器人学 基于优化方法的双足机器人行走">
+            <div class="paper-card" data-search="quadratic programming optimization for bio-inspired thruster-assisted bipedal locomotion on inclined slopes 运动控制 机器人学 基于优化方法的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#61</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2411.12968v1" target="_blank">Quadratic Programming Optimization for Bio-Inspired Thruster-Assisted Bipedal Locomotion on Inclined Slopes</a></h3>
@@ -4494,12 +4920,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning velocity-based humanoid locomotion: massively parallel learning with brax and mjx rl强化学习 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="learning velocity-based humanoid locomotion: massively parallel learning with brax and mjx rl强化学习 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#62</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2407.05148v1" target="_blank">Learning Velocity-based Humanoid Locomotion: Massively Parallel Learning with Brax and MJX</a></h3>
@@ -4562,12 +4995,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="bipedal safe navigation over uncertain rough terrain: unifying terrain mapping and locomotion stability 地形适应 双足机器人行走方法研究">
+            <div class="paper-card" data-search="bipedal safe navigation over uncertain rough terrain: unifying terrain mapping and locomotion stability 地形适应 双足机器人行走方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#63</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2403.16356v2" target="_blank">Bipedal Safe Navigation over Uncertain Rough Terrain: Unifying Terrain Mapping and Locomotion Stability</a></h3>
@@ -4630,12 +5070,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning generic and dynamic locomotion of humanoids across discrete terrains rl强化学习 地形适应 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="learning generic and dynamic locomotion of humanoids across discrete terrains rl强化学习 地形适应 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#64</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2405.17227v2" target="_blank">Learning Generic and Dynamic Locomotion of Humanoids Across Discrete Terrains</a></h3>
@@ -4698,12 +5145,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="advancing humanoid locomotion: mastering challenging terrains with denoising world model learning rl强化学习 世界模型 地形适应 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="advancing humanoid locomotion: mastering challenging terrains with denoising world model learning rl强化学习 世界模型 地形适应 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#65</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2408.14472v1" target="_blank">Advancing Humanoid Locomotion: Mastering Challenging Terrains with Denoising World Model Learning</a></h3>
@@ -4766,12 +5220,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning humanoid locomotion with perceptive internal model 地形适应 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="learning humanoid locomotion with perceptive internal model 地形适应 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#66</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2411.14386v1" target="_blank">Learning Humanoid Locomotion with Perceptive Internal Model</a></h3>
@@ -4834,12 +5295,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="stride: an open-source, low-cost, and versatile bipedal robot platform for research and education 地形适应 双足机器人行走方法研究">
+            <div class="paper-card" data-search="stride: an open-source, low-cost, and versatile bipedal robot platform for research and education 地形适应 双足机器人行走方法研究" data-has-code="yes">
                 <div class="card-header">
                     <span class="card-number">#67</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2407.02648v1" target="_blank">STRIDE: An Open-Source, Low-Cost, and Versatile Bipedal Robot Platform for Research and Education</a></h3>
@@ -4902,12 +5370,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #10b981;">✅ 有代码 - Open Source</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="humanoid-gym: reinforcement learning for humanoid robot with zero-shot sim2real transfer rl强化学习 sim2real 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="humanoid-gym: reinforcement learning for humanoid robot with zero-shot sim2real transfer rl强化学习 sim2real 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#68</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2404.05695v2" target="_blank">Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer</a></h3>
@@ -4970,12 +5445,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">🔧 基于开源框架 - Isaac Gym (NVIDIA), MuJoCo</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="socially acceptable bipedal robot navigation via social zonotope network model predictive control mpc 基于mpc的导航控制">
+            <div class="paper-card" data-search="socially acceptable bipedal robot navigation via social zonotope network model predictive control mpc 基于mpc的导航控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#69</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2406.17151v1" target="_blank">Socially Acceptable Bipedal Robot Navigation via Social Zonotope Network Model Predictive Control</a></h3>
@@ -5038,12 +5520,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="structural optimization of lightweight bipedal robot via serl rl强化学习 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="structural optimization of lightweight bipedal robot via serl rl强化学习 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#70</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2408.15632v1" target="_blank">Structural Optimization of Lightweight Bipedal Robot via SERL</a></h3>
@@ -5106,12 +5595,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="biohybrid bipedal robot powered by skeletal muscle tissue 运动控制 机器人学 机器人控制方法研究">
+            <div class="paper-card" data-search="biohybrid bipedal robot powered by skeletal muscle tissue 运动控制 机器人学 机器人控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#71</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85184781793&amp;origin=resultslist" target="_blank">Biohybrid bipedal robot powered by skeletal muscle tissue</a></h3>
@@ -5174,12 +5670,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="adaptive-force-based control of dynamic legged locomotion over uneven terrain 地形适应 腿足机器人运动方法研究">
+            <div class="paper-card" data-search="adaptive-force-based control of dynamic legged locomotion over uneven terrain 地形适应 腿足机器人运动方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#72</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85189350789&amp;origin=resultslist" target="_blank">Adaptive-Force-Based Control of Dynamic Legged Locomotion Over Uneven Terrain</a></h3>
@@ -5242,12 +5745,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="max: a wheeled-legged quadruped robot for multimodal agile locomotion 运动控制 机器人学 腿足机器人运动方法研究">
+            <div class="paper-card" data-search="max: a wheeled-legged quadruped robot for multimodal agile locomotion 运动控制 机器人学 腿足机器人运动方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#73</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85181580701&amp;origin=resultslist" target="_blank">Max: A Wheeled-Legged Quadruped Robot for Multimodal Agile Locomotion</a></h3>
@@ -5310,12 +5820,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="ai-cpg: adaptive imitated central pattern generators for bipedal locomotion learned through reinforced reflex neural networks 运动控制 机器人学 基于神经网络的双足机器人行走">
+            <div class="paper-card" data-search="ai-cpg: adaptive imitated central pattern generators for bipedal locomotion learned through reinforced reflex neural networks 运动控制 机器人学 基于神经网络的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#74</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85190737819&amp;origin=resultslist" target="_blank">AI-CPG: Adaptive Imitated Central Pattern Generators for Bipedal Locomotion Learned Through Reinforced Reflex Neural Networks</a></h3>
@@ -5378,12 +5895,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="cdm-mpc: an integrated dynamic planning and control framework for bipedal robots jumping mpc 跳跃 基于mpc的机器人控制">
+            <div class="paper-card" data-search="cdm-mpc: an integrated dynamic planning and control framework for bipedal robots jumping mpc 跳跃 基于mpc的机器人控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#75</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85195411305&amp;origin=resultslist" target="_blank">CDM-MPC: An Integrated Dynamic Planning and Control Framework for Bipedal Robots Jumping</a></h3>
@@ -5446,12 +5970,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="hybrid internal model: learning agile legged locomotion with simulated robot response 运动控制 机器人学 腿足机器人运动方法研究">
+            <div class="paper-card" data-search="hybrid internal model: learning agile legged locomotion with simulated robot response 运动控制 机器人学 腿足机器人运动方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#76</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85198305369&amp;origin=resultslist" target="_blank">HYBRID INTERNAL MODEL: LEARNING AGILE LEGGED LOCOMOTION WITH SIMULATED ROBOT RESPONSE</a></h3>
@@ -5514,12 +6045,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="humanoid loco-manipulations using combined fast dense 3d tracking and slam with wide-angle depth-images 运动控制 机器人学 机器人操作方法研究">
+            <div class="paper-card" data-search="humanoid loco-manipulations using combined fast dense 3d tracking and slam with wide-angle depth-images 运动控制 机器人学 机器人操作方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#77</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85162718807&amp;origin=resultslist" target="_blank">Humanoid Loco-Manipulations Using Combined Fast Dense 3D Tracking and SLAM with Wide-Angle Depth-Images</a></h3>
@@ -5582,12 +6120,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="highly maneuverable humanoid running via 3d slip+foot dynamics 奔跑 机器人控制方法研究">
+            <div class="paper-card" data-search="highly maneuverable humanoid running via 3d slip+foot dynamics 奔跑 机器人控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#78</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85179809683&amp;origin=resultslist" target="_blank">Highly Maneuverable Humanoid Running via 3D SLIP+Foot Dynamics</a></h3>
@@ -5650,12 +6195,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="a new method for finding the proper initial conditions in passive locomotion of bipedal robotic systems 运动控制 机器人学 双足机器人行走方法研究">
+            <div class="paper-card" data-search="a new method for finding the proper initial conditions in passive locomotion of bipedal robotic systems 运动控制 机器人学 双足机器人行走方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#79</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85178144535&amp;origin=resultslist" target="_blank">A new method for finding the proper initial conditions in passive locomotion of bipedal robotic systems</a></h3>
@@ -5718,12 +6270,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning agile locomotion and adaptive behaviors via rl-augmented mpc mpc 基于mpc的腿足机器人运动">
+            <div class="paper-card" data-search="learning agile locomotion and adaptive behaviors via rl-augmented mpc mpc 基于mpc的腿足机器人运动" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#80</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85202431823&amp;origin=resultslist" target="_blank">Learning Agile Locomotion and Adaptive Behaviors via RL-augmented MPC</a></h3>
@@ -5786,12 +6345,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="cts: concurrent teacher-student reinforcement learning for legged locomotion rl强化学习 基于强化学习的腿足机器人运动">
+            <div class="paper-card" data-search="cts: concurrent teacher-student reinforcement learning for legged locomotion rl强化学习 基于强化学习的腿足机器人运动" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#81</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85204230435&amp;origin=resultslist" target="_blank">CTS: Concurrent Teacher-Student Reinforcement Learning for Legged Locomotion</a></h3>
@@ -5854,12 +6420,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="adaptive bipedal robot walking on industrial pipes under neural multimodal locomotion control: toward robotic out-pipe inspection 运动控制 机器人学 双足机器人行走方法研究">
+            <div class="paper-card" data-search="adaptive bipedal robot walking on industrial pipes under neural multimodal locomotion control: toward robotic out-pipe inspection 运动控制 机器人学 双足机器人行走方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#82</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85165403812&amp;origin=resultslist" target="_blank">Adaptive Bipedal Robot Walking on Industrial Pipes Under Neural Multimodal Locomotion Control: Toward Robotic Out-Pipe Inspection</a></h3>
@@ -5922,12 +6495,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="comparative analysis of reinforcement learning algorithms for bipedal robot locomotion rl强化学习 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="comparative analysis of reinforcement learning algorithms for bipedal robot locomotion rl强化学习 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#83</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85181844587&amp;origin=resultslist" target="_blank">Comparative Analysis of Reinforcement Learning Algorithms for Bipedal Robot Locomotion</a></h3>
@@ -5990,12 +6570,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="real-world humanoid locomotion with reinforcement learning rl强化学习 transformer 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="real-world humanoid locomotion with reinforcement learning rl强化学习 transformer 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#84</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2303.03381v2" target="_blank">Real-World Humanoid Locomotion with Reinforcement Learning</a></h3>
@@ -6058,12 +6645,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="template model inspired task space learning for robust bipedal locomotion rl强化学习 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="template model inspired task space learning for robust bipedal locomotion rl强化学习 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#85</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2309.15442v1" target="_blank">Template Model Inspired Task Space Learning for Robust Bipedal Locomotion</a></h3>
@@ -6126,12 +6720,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning bipedal walking for humanoids with current feedback rl强化学习 sim2real 基于强化学习的机器人行走控制">
+            <div class="paper-card" data-search="learning bipedal walking for humanoids with current feedback rl强化学习 sim2real 基于强化学习的机器人行走控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#86</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2303.03724v2" target="_blank">Learning Bipedal Walking for Humanoids with Current Feedback</a></h3>
@@ -6194,12 +6795,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="humanmimic: learning natural locomotion and transitions for humanoid robot via wasserstein adversarial imitation rl强化学习 模仿学习 动作重定向 基于强化学习的人形机器人运动控制">
+            <div class="paper-card" data-search="humanmimic: learning natural locomotion and transitions for humanoid robot via wasserstein adversarial imitation rl强化学习 模仿学习 动作重定向 基于强化学习的人形机器人运动控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#87</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2309.14225v4" target="_blank">HumanMimic: Learning Natural Locomotion and Transitions for Humanoid Robot via Wasserstein Adversarial Imitation</a></h3>
@@ -6262,12 +6870,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="socially acceptable bipedal navigation: a signal-temporal-logic- driven approach for safe locomotion 运动控制 机器人学 双足机器人行走方法研究">
+            <div class="paper-card" data-search="socially acceptable bipedal navigation: a signal-temporal-logic- driven approach for safe locomotion 运动控制 机器人学 双足机器人行走方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#88</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2310.09969v1" target="_blank">Socially Acceptable Bipedal Navigation: A Signal-Temporal-Logic- Driven Approach for Safe Locomotion</a></h3>
@@ -6330,12 +6945,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning vision-based bipedal locomotion for challenging terrain rl强化学习 地形适应 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="learning vision-based bipedal locomotion for challenging terrain rl强化学习 地形适应 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#89</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2309.14594v2" target="_blank">Learning Vision-Based Bipedal Locomotion for Challenging Terrain</a></h3>
@@ -6398,12 +7020,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="infer and adapt: bipedal locomotion reward learning from demonstrations via inverse reinforcement learning rl强化学习 模仿学习 地形适应 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="infer and adapt: bipedal locomotion reward learning from demonstrations via inverse reinforcement learning rl强化学习 模仿学习 地形适应 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#90</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2309.16074v1" target="_blank">Infer and Adapt: Bipedal Locomotion Reward Learning from Demonstrations via Inverse Reinforcement Learning</a></h3>
@@ -6466,12 +7095,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning robust, agile, natural legged locomotion skills in the wild rl强化学习 sim2real 地形适应 基于强化学习的腿足机器人运动">
+            <div class="paper-card" data-search="learning robust, agile, natural legged locomotion skills in the wild rl强化学习 sim2real 地形适应 基于强化学习的腿足机器人运动" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#91</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2304.10888v3" target="_blank">Learning Robust, Agile, Natural Legged Locomotion Skills in the Wild</a></h3>
@@ -6534,12 +7170,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="signal temporal logic-guided model predictive control for robust bipedal locomotion resilient to runtime external perturbations mpc 基于mpc的双足机器人行走">
+            <div class="paper-card" data-search="signal temporal logic-guided model predictive control for robust bipedal locomotion resilient to runtime external perturbations mpc 基于mpc的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#92</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2310.11290v1" target="_blank">Signal Temporal Logic-Guided Model Predictive Control for Robust Bipedal Locomotion Resilient to Runtime External Perturbations</a></h3>
@@ -6602,12 +7245,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="proprioceptive external torque learning for floating base robot and its applications to humanoid locomotion 运动控制 机器人学 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="proprioceptive external torque learning for floating base robot and its applications to humanoid locomotion 运动控制 机器人学 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#93</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2309.04138v1" target="_blank">Proprioceptive External Torque Learning for Floating Base Robot and its Applications to Humanoid Locomotion</a></h3>
@@ -6670,12 +7320,19 @@
                                     <div class="analysis-value highlight">是 - 核心方向论文，方法值得借鉴</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning perceptive bipedal locomotion over irregular terrain 地形适应 双足机器人行走方法研究">
+            <div class="paper-card" data-search="learning perceptive bipedal locomotion over irregular terrain 地形适应 双足机器人行走方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#94</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2304.07236v1" target="_blank">Learning Perceptive Bipedal Locomotion over Irregular Terrain</a></h3>
@@ -6738,12 +7395,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="data-driven latent space representation for robust bipedal locomotion learning rl强化学习 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="data-driven latent space representation for robust bipedal locomotion learning rl强化学习 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#95</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2309.15740v1" target="_blank">Data-Driven Latent Space Representation for Robust Bipedal Locomotion Learning</a></h3>
@@ -6806,12 +7470,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning agile bipedal motions on a quadrupedal robot 运动控制 机器人学 机器人控制方法研究">
+            <div class="paper-card" data-search="learning agile bipedal motions on a quadrupedal robot 运动控制 机器人学 机器人控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#96</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2311.05818v2" target="_blank">Learning Agile Bipedal Motions on a Quadrupedal Robot</a></h3>
@@ -6874,12 +7545,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="humanoid robot co-design: coupling hardware design with gait generation via hybrid zero dynamics 零动力学hzd 机器人控制方法研究">
+            <div class="paper-card" data-search="humanoid robot co-design: coupling hardware design with gait generation via hybrid zero dynamics 零动力学hzd 机器人控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#97</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2308.10962v1" target="_blank">Humanoid Robot Co-Design: Coupling Hardware Design with Gait Generation via Hybrid Zero Dynamics</a></h3>
@@ -6942,12 +7620,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="walking-by-logic: signal temporal logic-guided model predictive control for bipedal locomotion resilient to external perturbations mpc 推力恢复 基于mpc的双足机器人行走">
+            <div class="paper-card" data-search="walking-by-logic: signal temporal logic-guided model predictive control for bipedal locomotion resilient to external perturbations mpc 推力恢复 基于mpc的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#98</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2309.13172v1" target="_blank">Walking-by-Logic: Signal Temporal Logic-Guided Model Predictive Control for Bipedal Locomotion Resilient to External Perturbations</a></h3>
@@ -7010,12 +7695,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="stoch biro: design and control of a low cost bipedal robot 平衡控制 地形适应 双足机器人行走方法研究">
+            <div class="paper-card" data-search="stoch biro: design and control of a low cost bipedal robot 平衡控制 地形适应 双足机器人行走方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#99</span>
                     <h3 class="card-title"><a href="http://arxiv.org/abs/2312.06512v1" target="_blank">Stoch BiRo: Design and Control of a low cost bipedal robot</a></h3>
@@ -7078,12 +7770,19 @@
                                     <div class="analysis-value highlight">是 - 方向相关，建议了解方法细节</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="deep whole-body control: learning a unified policy for manipulation and locomotion wbc全身控制 腿足机器人运动方法研究">
+            <div class="paper-card" data-search="deep whole-body control: learning a unified policy for manipulation and locomotion wbc全身控制 腿足机器人运动方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#100</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85164921897&amp;origin=resultslist" target="_blank">Deep Whole-Body Control: Learning a Unified Policy for Manipulation and Locomotion</a></h3>
@@ -7146,12 +7845,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="learning robust and agile legged locomotion using adversarial motion priors 运动控制 机器人学 腿足机器人运动方法研究">
+            <div class="paper-card" data-search="learning robust and agile legged locomotion using adversarial motion priors 运动控制 机器人学 腿足机器人运动方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#101</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85163460343&amp;origin=resultslist" target="_blank">Learning Robust and Agile Legged Locomotion Using Adversarial Motion Priors</a></h3>
@@ -7214,12 +7920,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="reward-adaptive reinforcement learning: dynamic policy gradient optimization for bipedal locomotion rl强化学习 策略梯度 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="reward-adaptive reinforcement learning: dynamic policy gradient optimization for bipedal locomotion rl强化学习 策略梯度 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#102</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85144064950&amp;origin=resultslist" target="_blank">Reward-Adaptive Reinforcement Learning: Dynamic Policy Gradient Optimization for Bipedal Locomotion</a></h3>
@@ -7282,12 +7995,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="efficient anytime clf reactive planning system for a bipedal robot on undulating terrain 地形适应 机器人控制方法研究">
+            <div class="paper-card" data-search="efficient anytime clf reactive planning system for a bipedal robot on undulating terrain 地形适应 机器人控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#103</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85147303984&amp;origin=resultslist" target="_blank">Efficient Anytime CLF Reactive Planning System for a Bipedal Robot on Undulating Terrain</a></h3>
@@ -7350,12 +8070,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="cerberus: low-drift visual-inertial-leg odometry for agile locomotion 运动控制 机器人学 腿足机器人运动方法研究">
+            <div class="paper-card" data-search="cerberus: low-drift visual-inertial-leg odometry for agile locomotion 运动控制 机器人学 腿足机器人运动方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#104</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85168678256&amp;origin=resultslist" target="_blank">Cerberus: Low-Drift Visual-Inertial-Leg Odometry For Agile Locomotion</a></h3>
@@ -7418,12 +8145,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="rl + model-based control: using on-demand optimal control to learn versatile legged locomotion 运动控制 机器人学 腿足机器人运动方法研究">
+            <div class="paper-card" data-search="rl + model-based control: using on-demand optimal control to learn versatile legged locomotion 运动控制 机器人学 腿足机器人运动方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#105</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85168715205&amp;origin=resultslist" target="_blank">RL + Model-Based Control: Using On-Demand Optimal Control to Learn Versatile Legged Locomotion</a></h3>
@@ -7486,12 +8220,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="autonomous navigation of underactuated bipedal robots in height-constrained environments 运动控制 机器人学 导航控制方法研究">
+            <div class="paper-card" data-search="autonomous navigation of underactuated bipedal robots in height-constrained environments 运动控制 机器人学 导航控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#106</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85165440944&amp;origin=resultslist" target="_blank">Autonomous navigation of underactuated bipedal robots in height-constrained environments</a></h3>
@@ -7554,12 +8295,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="optimizing bipedal locomotion for the 100m dash with comparison to human running 奔跑 双足机器人行走方法研究">
+            <div class="paper-card" data-search="optimizing bipedal locomotion for the 100m dash with comparison to human running 奔跑 双足机器人行走方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#107</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85168676400&amp;origin=resultslist" target="_blank">Optimizing Bipedal Locomotion for The 100m Dash With Comparison to Human Running</a></h3>
@@ -7622,12 +8370,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="contact optimization for non-prehensile loco-manipulation via hierarchical model predictive control mpc 基于mpc的机器人操作">
+            <div class="paper-card" data-search="contact optimization for non-prehensile loco-manipulation via hierarchical model predictive control mpc 基于mpc的机器人操作" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#108</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85168690385&amp;origin=resultslist" target="_blank">Contact Optimization for Non-Prehensile Loco-Manipulation via Hierarchical Model Predictive Control</a></h3>
@@ -7690,12 +8445,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="modeling and mpc-based pose tracking for wheeled bipedal robot mpc 基于mpc的机器人控制">
+            <div class="paper-card" data-search="modeling and mpc-based pose tracking for wheeled bipedal robot mpc 基于mpc的机器人控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#109</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85174817902&amp;origin=resultslist" target="_blank">Modeling and MPC-Based Pose Tracking for Wheeled Bipedal Robot</a></h3>
@@ -7758,12 +8520,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="dynamic walking of bipedal robots on uneven stepping stones via adaptive-frequency mpc mpc 基于mpc的机器人行走控制">
+            <div class="paper-card" data-search="dynamic walking of bipedal robots on uneven stepping stones via adaptive-frequency mpc mpc 基于mpc的机器人行走控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#110</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85147202313&amp;origin=resultslist" target="_blank">Dynamic Walking of Bipedal Robots on Uneven Stepping Stones via Adaptive-Frequency MPC</a></h3>
@@ -7826,12 +8595,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="seamless reaction strategy for bipedal locomotion exploiting real-time nonlinear model predictive control mpc 基于mpc的双足机器人行走">
+            <div class="paper-card" data-search="seamless reaction strategy for bipedal locomotion exploiting real-time nonlinear model predictive control mpc 基于mpc的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#111</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85163504258&amp;origin=resultslist" target="_blank">Seamless Reaction Strategy for Bipedal Locomotion Exploiting Real-Time Nonlinear Model Predictive Control</a></h3>
@@ -7894,12 +8670,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="quadruped capturability and push recovery via a switched-systems characterization of dynamic balance 推力恢复 平衡控制 平衡控制方法研究">
+            <div class="paper-card" data-search="quadruped capturability and push recovery via a switched-systems characterization of dynamic balance 推力恢复 平衡控制 平衡控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#112</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85151553692&amp;origin=resultslist" target="_blank">Quadruped Capturability and Push Recovery via a Switched-Systems Characterization of Dynamic Balance</a></h3>
@@ -7962,12 +8745,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="distributed data-driven predictive control for multi-agent collaborative legged locomotion 运动控制 机器人学 腿足机器人运动方法研究">
+            <div class="paper-card" data-search="distributed data-driven predictive control for multi-agent collaborative legged locomotion 运动控制 机器人学 腿足机器人运动方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#113</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85168659479&amp;origin=resultslist" target="_blank">Distributed Data-Driven Predictive Control for Multi-Agent Collaborative Legged Locomotion</a></h3>
@@ -8030,12 +8820,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="benchmarking potential based rewards for learning humanoid locomotion 运动控制 机器人学 人形机器人运动控制方法研究">
+            <div class="paper-card" data-search="benchmarking potential based rewards for learning humanoid locomotion 运动控制 机器人学 人形机器人运动控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#114</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85168667660&amp;origin=resultslist" target="_blank">Benchmarking Potential Based Rewards for Learning Humanoid Locomotion</a></h3>
@@ -8098,12 +8895,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="design and control of braver: a bipedal robot actuated via proprioceptive electric motors 运动控制 机器人学 机器人控制方法研究">
+            <div class="paper-card" data-search="design and control of braver: a bipedal robot actuated via proprioceptive electric motors 运动控制 机器人学 机器人控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#115</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85165443909&amp;origin=resultslist" target="_blank">Design and control of BRAVER: a bipedal robot actuated via proprioceptive electric motors</a></h3>
@@ -8166,12 +8970,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="torque-based deep reinforcement learning for task-and-robot agnostic learning on bipedal robots using sim-to-real transfer rl强化学习 sim2real 基于强化学习的机器人控制">
+            <div class="paper-card" data-search="torque-based deep reinforcement learning for task-and-robot agnostic learning on bipedal robots using sim-to-real transfer rl强化学习 sim2real 基于强化学习的机器人控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#116</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85167803521&amp;origin=resultslist" target="_blank">Torque-Based Deep Reinforcement Learning for Task-and-Robot Agnostic Learning on Bipedal Robots Using Sim-to-Real Transfer</a></h3>
@@ -8234,12 +9045,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="bipedal walking on constrained footholds with mpc footstep control mpc 基于mpc的机器人行走控制">
+            <div class="paper-card" data-search="bipedal walking on constrained footholds with mpc footstep control mpc 基于mpc的机器人行走控制" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#117</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85182921448&amp;origin=resultslist" target="_blank">Bipedal Walking on Constrained Footholds with MPC Footstep Control</a></h3>
@@ -8302,12 +9120,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="predictive control of zero moment point (zmp) for terrain robot kinematics 地形适应 机器人控制方法研究">
+            <div class="paper-card" data-search="predictive control of zero moment point (zmp) for terrain robot kinematics 地形适应 机器人控制方法研究" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#118</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85142240663&amp;origin=resultslist" target="_blank">Predictive control of zero moment point (ZMP) for terrain robot kinematics</a></h3>
@@ -8370,12 +9195,19 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="paper-card" data-search="multimodal bipedal locomotion generation with passive dynamics via deep reinforcement learning rl强化学习 基于强化学习的双足机器人行走">
+            <div class="paper-card" data-search="multimodal bipedal locomotion generation with passive dynamics via deep reinforcement learning rl强化学习 基于强化学习的双足机器人行走" data-has-code="no">
                 <div class="card-header">
                     <span class="card-number">#119</span>
                     <h3 class="card-title"><a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85147445912&amp;origin=resultslist" target="_blank">Multimodal bipedal locomotion generation with passive dynamics via deep reinforcement learning</a></h3>
@@ -8438,6 +9270,13 @@
                                     <div class="analysis-value ">可选 - 根据需求决定</div>
                                 </div>
                             </div>
+                            <div class="analysis-item" style="grid-column: 1 / -1;">
+                                <span class="analysis-num" style="background: linear-gradient(135deg, #10b981, #059669);">7</span>
+                                <div class="analysis-content">
+                                    <div class="analysis-label">开源代码 (可本地运行)</div>
+                                    <div class="analysis-value" style="color: #888;">❓ 未明确提供代码</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -8447,11 +9286,13 @@
     </div>
 
     <footer>
-        <p>Generated: 2026-01-31 13:46</p>
+        <p>Generated: 2026-01-31 14:15</p>
         <p>Humanoid Locomotion Research Paper Analysis</p>
     </footer>
 
     <script>
+        let currentCodeFilter = 'all';
+
         function filterPapers() {
             const query = document.getElementById('searchBox').value.toLowerCase();
             const cards = document.querySelectorAll('.paper-card');
@@ -8459,7 +9300,12 @@
 
             cards.forEach(card => {
                 const searchText = card.dataset.search || '';
-                if (searchText.includes(query)) {
+                const hasCode = card.dataset.hasCode === 'yes';
+
+                const matchSearch = searchText.includes(query);
+                const matchCode = currentCodeFilter === 'all' || (currentCodeFilter === 'code' && hasCode);
+
+                if (matchSearch && matchCode) {
                     card.style.display = 'block';
                     visibleCount++;
                 } else {
@@ -8468,6 +9314,28 @@
             });
 
             document.getElementById('resultCount').textContent = `Showing ${visibleCount} papers`;
+        }
+
+        function filterByCode(filter) {
+            currentCodeFilter = filter;
+
+            // Update button styles
+            const allBtn = document.getElementById('allBtn');
+            const codeBtn = document.getElementById('codeBtn');
+
+            if (filter === 'all') {
+                allBtn.style.background = '#00d4ff';
+                allBtn.style.color = '#0a0a1a';
+                codeBtn.style.background = 'transparent';
+                codeBtn.style.color = '#10b981';
+            } else {
+                allBtn.style.background = 'transparent';
+                allBtn.style.color = '#888899';
+                codeBtn.style.background = '#10b981';
+                codeBtn.style.color = '#0a0a1a';
+            }
+
+            filterPapers();
         }
     </script>
 </body>
